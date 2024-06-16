@@ -13,5 +13,7 @@ num1 = int(input("Enter the first number:\t"))
 num2 = int(input("\nEnter the second number:\t"))
 if num1 > num2:
     print("Number1 is greater than Number2")
-else:
+elif num2 > num1:
     print("Number2 is greater than Number1")
+else:
+    print("Both are equal")
